@@ -10,13 +10,13 @@
     <h1>Exercice 6 Partie 5 : Les Tableaux PHP</h1>
     <table>
         <?php
-        $department = array (
+        $department = array(
             '02' => 'Aisne',
             '59' => 'Nord',
             '60' => 'Oise',
             '62' => 'Pas-de-Calais',
             '80' => 'Somme');?>
-            <tr><?= $department['59']?></tr>
+            <tr><td><?= $department['59']?></td></tr>
     </table>
 </body>
 </html>
