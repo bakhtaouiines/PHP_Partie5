@@ -1,3 +1,11 @@
+<?php
+        $department = array (
+            '02' => 'Aisne',
+            '59' => 'Nord',
+            '60' => 'Oise',
+            '62' => 'Pas-de-Calais',
+            '80' => 'Somme');
+        ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,14 +18,7 @@
     <h1>Exercice 7 Partie 5 : Les Tableaux PHP</h1>
     <table>
         <?php
-        $department = array (
-            '02' => 'Aisne',
-            '51' => 'Marne',
-            '59' => 'Nord',
-            '60' => 'Oise',
-            '62' => 'Pas-de-Calais',
-            '80' => 'Somme');
-        ?>
+        $department ['51'] = 'Marne'?>      
     </table>
 </body>
 </html>
