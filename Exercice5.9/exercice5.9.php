@@ -16,9 +16,9 @@
             '60' => 'Oise',
             '62' => 'Pas-de-Calais',
             '80' => 'Somme');
-            foreach($department as $value){
+            foreach($department as $key => $value){
         ?>
-        <tr><?=$value;}?></tr>
+        <tr><td><?=$value;}?></td></tr>
     </table>
 </body>
 </html>
