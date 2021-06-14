@@ -10,8 +10,8 @@
     <h1>Exercice 3 Partie 5 : Les Tableaux PHP</h1>
     <table>
         <?php
-        $months = array ('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre')   ?>
-        <tr><?= $months[5]?></tr>
+        $months = array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre')?>
+        <tr><td><?= $months[5]?></td></tr>
     </table>
 </body>
 </html>
